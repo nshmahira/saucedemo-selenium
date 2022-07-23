@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login #2" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-23T03:54:36" hostname="Nabilahs-MacBook-Pro.local" time="5.854">
+<testsuite name="Login #2" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-23T05:19:03" hostname="Nabilahs-MacBook-Pro.local" time="5.764">
   <properties/>
-  <testcase name="user input &quot;locked_out_user&quot; and &quot;secret_sauce&quot;" classname="Login #2" time="0.513"/>
-  <testcase name="user click login button" classname="Login #2" time="0.152"/>
-  <testcase name="user success login" classname="Login #2" time="5.063"/>
-  <testcase name="classMethod" classname="Login #2" time="8.527"/>
+  <testcase name="user input &quot;locked_out_user&quot; and &quot;secret_sauce&quot;" classname="Login #2" time="0.454"/>
+  <testcase name="user click login button" classname="Login #2" time="0.137"/>
+  <testcase name="user success login" classname="Login #2" time="5.055"/>
+  <testcase name="classMethod" classname="Login #2" time="8.324"/>
   <system-out><![CDATA[
 @Web @Login
 Scenario Outline: Login                                 ?[90m# src/test/resources/features/login.feature:12?[0m
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 6830
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 37020
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 23, 2022 10:54:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 23, 2022 12:19:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
