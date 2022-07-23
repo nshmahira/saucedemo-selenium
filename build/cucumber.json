@@ -3,259 +3,6 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
-        "name": "Login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 593000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user input \"standard_user\" and \"secret_sauce\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"standard_user\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"secret_sauce\"",
-                  "offset": 31
-                }
-              ],
-              "location": "demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 235000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user click login button",
-            "match": {
-              "location": "demo.steps_definition.LoginStep.clickButtonLogin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 211000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user success login",
-            "match": {
-              "location": "demo.steps_definition.LoginStep.isSuccessLogin()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-23T02:23:23.348Z",
-        "before": [
-          {
-            "result": {
-              "duration": 3480000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "Add To Cart",
-        "description": "",
-        "id": "scenario-with-background;add-to-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 213000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 11,
-            "name": "user click add to cart",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "user can see the shopping cart added",
-            "match": {
-              "location": "demo.steps_definition.AddToCartStep.isSuccessAddToCart()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Web"
-          },
-          {
-            "name": "@AddToCart1"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 424000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user input \"standard_user\" and \"secret_sauce\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"standard_user\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"secret_sauce\"",
-                  "offset": 31
-                }
-              ],
-              "location": "demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 253000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user click login button",
-            "match": {
-              "location": "demo.steps_definition.LoginStep.clickButtonLogin()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 122000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user success login",
-            "match": {
-              "location": "demo.steps_definition.LoginStep.isSuccessLogin()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-07-23T02:23:28.250Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2795000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "demo.hooks.WebdriverHooks.initializeWebdriver()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "Add To Cart",
-        "description": "",
-        "id": "scenario-with-background;add-to-cart",
-        "after": [
-          {
-            "result": {
-              "duration": 159000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "demo.hooks.WebdriverHooks.quitWebdriver(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16,
-            "name": "user click add to cart",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "user can see the shopping cart added",
-            "match": {
-              "location": "demo.steps_definition.AddToCartStep.isSuccessAddToCart()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Web"
-          },
-          {
-            "name": "@AddToCart2"
-          }
-        ]
-      }
-    ],
-    "name": "Scenario with Background",
-    "description": "",
-    "id": "scenario-with-background",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/BackgroundScenario.feature",
-    "tags": [
-      {
-        "name": "@Web",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
         "line": 3,
         "name": "Login",
         "description": "",
@@ -264,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 441000000,
+              "duration": 737000000,
               "status": "passed"
             },
             "line": 4,
@@ -286,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 261000000,
+              "duration": 351000000,
               "status": "passed"
             },
             "line": 5,
@@ -298,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 122000000,
+              "duration": 202000000,
               "status": "passed"
             },
             "line": 6,
@@ -310,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 157000000,
+              "duration": 195000000,
               "status": "passed"
             },
             "line": 7,
@@ -329,11 +76,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-23T02:23:32.070Z",
+        "start_timestamp": "2022-07-23T03:54:08.305Z",
         "before": [
           {
             "result": {
-              "duration": 2460000000,
+              "duration": 4884000000,
               "status": "passed"
             },
             "match": {
@@ -348,7 +95,7 @@
         "after": [
           {
             "result": {
-              "duration": 238000000,
+              "duration": 164000000,
               "status": "passed"
             },
             "match": {
@@ -361,7 +108,7 @@
         "steps": [
           {
             "result": {
-              "duration": 149000000,
+              "duration": 170000000,
               "status": "passed"
             },
             "line": 10,
@@ -379,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 97000000,
+              "duration": 136000000,
               "status": "passed"
             },
             "line": 11,
@@ -397,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 142000000,
+              "duration": 172000000,
               "status": "passed"
             },
             "line": 12,
@@ -409,7 +156,7 @@
           },
           {
             "result": {
-              "duration": 72000000,
+              "duration": 79000000,
               "status": "passed"
             },
             "line": 13,
@@ -421,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 80000000,
+              "duration": 103000000,
               "status": "passed"
             },
             "line": 14,
@@ -439,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 5071000000,
+              "duration": 5090000000,
               "status": "passed"
             },
             "line": 15,
@@ -457,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 334000000,
+              "duration": 213000000,
               "status": "passed"
             },
             "line": 16,
@@ -498,11 +245,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-23T02:23:41.736Z",
+        "start_timestamp": "2022-07-23T03:54:20.965Z",
         "before": [
           {
             "result": {
-              "duration": 3018000000,
+              "duration": 2858000000,
               "status": "passed"
             },
             "match": {
@@ -517,7 +264,7 @@
         "after": [
           {
             "result": {
-              "duration": 239000000,
+              "duration": 156000000,
               "status": "passed"
             },
             "match": {
@@ -530,7 +277,7 @@
         "steps": [
           {
             "result": {
-              "duration": 459000000,
+              "duration": 565000000,
               "status": "passed"
             },
             "line": 6,
@@ -552,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 255000000,
+              "duration": 277000000,
               "status": "passed"
             },
             "line": 7,
@@ -564,7 +311,7 @@
           },
           {
             "result": {
-              "duration": 238000000,
+              "duration": 165000000,
               "status": "passed"
             },
             "line": 8,
@@ -576,17 +323,20 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 150000000,
+              "status": "passed"
             },
             "line": 9,
             "name": "user click add to cart",
-            "match": {},
+            "match": {
+              "location": "demo.steps_definition.AddToCartStep.userClickAddToCart()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2000000,
-              "status": "skipped"
+              "duration": 1000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "user can see the shopping cart added",
@@ -626,11 +376,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-23T02:23:45.993Z",
+        "start_timestamp": "2022-07-23T03:54:25.218Z",
         "before": [
           {
             "result": {
-              "duration": 3234000000,
+              "duration": 2513000000,
               "status": "passed"
             },
             "match": {
@@ -645,7 +395,7 @@
         "after": [
           {
             "result": {
-              "duration": 290000000,
+              "duration": 148000000,
               "status": "passed"
             },
             "match": {
@@ -658,7 +408,7 @@
         "steps": [
           {
             "result": {
-              "duration": 460000000,
+              "duration": 594000000,
               "status": "passed"
             },
             "line": 6,
@@ -680,7 +430,7 @@
           },
           {
             "result": {
-              "duration": 274000000,
+              "duration": 233000000,
               "status": "passed"
             },
             "line": 7,
@@ -692,7 +442,7 @@
           },
           {
             "result": {
-              "duration": 245000000,
+              "duration": 154000000,
               "status": "passed"
             },
             "line": 8,
@@ -704,18 +454,10 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1000000,
+              "status": "passed"
             },
             "line": 9,
-            "name": "user click add to cart",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
             "name": "user can see the shopping cart added",
             "match": {
               "location": "demo.steps_definition.AddToCartStep.isSuccessAddToCart()"
@@ -724,9 +466,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 120000000,
+              "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "user click shopping cart",
             "match": {
               "location": "demo.steps_definition.CheckoutItemSteps.clickButtonLogin()"
@@ -735,10 +478,10 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 101000000,
+              "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "user click checkout button",
             "match": {
               "location": "demo.steps_definition.CheckoutItemSteps.clickButtonCheckout()"
@@ -747,9 +490,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 362000000,
+              "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "user input \"first name\" and \"last name\" and \"43252\"",
             "match": {
               "arguments": [
@@ -772,9 +516,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 105000000,
+              "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "user click continue button",
             "match": {
               "location": "demo.steps_definition.CheckoutItemSteps.clickContinueButton()"
@@ -783,10 +528,10 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "duration": 32000000,
+              "status": "passed"
             },
-            "line": 15,
+            "line": 14,
             "name": "user can see checkout overview",
             "match": {
               "location": "demo.steps_definition.CheckoutItemSteps.isCheckoutOverview()"
@@ -795,9 +540,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 115000000,
+              "status": "passed"
             },
-            "line": 16,
+            "line": 15,
             "name": "user click finish button",
             "match": {
               "location": "demo.steps_definition.CheckoutItemSteps.clickFinishButton()"
@@ -806,9 +552,10 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 78000000,
+              "status": "passed"
             },
-            "line": 17,
+            "line": 16,
             "name": "user can see success checkout",
             "match": {
               "location": "demo.steps_definition.CheckoutItemSteps.isSuccessCheckot()"
@@ -846,11 +593,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-23T02:23:50.531Z",
+        "start_timestamp": "2022-07-23T03:54:29.812Z",
         "before": [
           {
             "result": {
-              "duration": 3434000000,
+              "duration": 2595000000,
               "status": "passed"
             },
             "match": {
@@ -865,7 +612,7 @@
         "after": [
           {
             "result": {
-              "duration": 147000000,
+              "duration": 152000000,
               "status": "passed"
             },
             "match": {
@@ -878,7 +625,7 @@
         "steps": [
           {
             "result": {
-              "duration": 647000000,
+              "duration": 468000000,
               "status": "passed"
             },
             "line": 6,
@@ -900,7 +647,7 @@
           },
           {
             "result": {
-              "duration": 338000000,
+              "duration": 259000000,
               "status": "passed"
             },
             "line": 7,
@@ -912,7 +659,7 @@
           },
           {
             "result": {
-              "duration": 177000000,
+              "duration": 155000000,
               "status": "passed"
             },
             "line": 8,
@@ -933,11 +680,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-23T02:23:55.302Z",
+        "start_timestamp": "2022-07-23T03:54:33.470Z",
         "before": [
           {
             "result": {
-              "duration": 2764000000,
+              "duration": 2652000000,
               "status": "passed"
             },
             "match": {
@@ -952,7 +699,7 @@
         "after": [
           {
             "result": {
-              "duration": 159000000,
+              "duration": 121000000,
               "status": "passed"
             },
             "match": {
@@ -965,7 +712,7 @@
         "steps": [
           {
             "result": {
-              "duration": 470000000,
+              "duration": 514000000,
               "status": "passed"
             },
             "line": 6,
@@ -987,7 +734,7 @@
           },
           {
             "result": {
-              "duration": 338000000,
+              "duration": 151000000,
               "status": "passed"
             },
             "line": 7,
@@ -999,7 +746,7 @@
           },
           {
             "result": {
-              "duration": 5003000000,
+              "duration": 5062000000,
               "status": "passed"
             },
             "line": 8,

@@ -46,4 +46,7 @@ public class AddToCartStep {
     public void userCanClickContinueShopping() { addToCartPages.userCanClickContinueShopping();
     }
 
+    @Given("user click add to cart")
+    public void userClickAddToCart() { addToCartPages.clickAddToCart();
+    }
 }

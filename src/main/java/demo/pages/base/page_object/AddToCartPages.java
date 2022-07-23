@@ -11,7 +11,10 @@ public class AddToCartPages extends BasePageObject {
   public static List<String> listProduct = new ArrayList<String>();
 
 
-
+    public void clickAddToCart() {
+        By element = By.id("add-to-cart-sauce-labs-backpack");
+        clickOn(element);
+    }
     public boolean isSuccessAddToCart(int i) {
         By element = By.xpath("//*[contains(text(),'" +listProduct.get(i)+"')]");
         return isPresent(element);

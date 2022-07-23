@@ -1,45 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Add To Cart" tests="6" skipped="1" failures="2" errors="0" timestamp="2022-07-23T02:23:44" hostname="Nabilahs-MacBook-Pro.local" time="1.212">
+<testsuite name="Add To Cart" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-07-23T03:54:23" hostname="Nabilahs-MacBook-Pro.local" time="1.324">
   <properties/>
-  <testcase name="user input &quot;standard_user&quot; and &quot;secret_sauce&quot;" classname="Add To Cart" time="0.458"/>
-  <testcase name="user click login button" classname="Add To Cart" time="0.255"/>
-  <testcase name="user success login" classname="Add To Cart" time="0.238"/>
-  <testcase name="user click add to cart" classname="Add To Cart" time="0.001">
-    <failure message="io.cucumber.junit.UndefinedStepException: The step 'user click add to cart' is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Given(&quot;user click add to cart&quot;)&#10;public void user_click_add_to_cart() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'user click add to cart' is undefined.
-You can implement this step using the snippet(s) below:
-
-@Given(&quot;user click add to cart&quot;)
-public void user_click_add_to_cart() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-</failure>
-  </testcase>
-  <testcase name="user can see the shopping cart added" classname="Add To Cart" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase name="classMethod" classname="Add To Cart" time="4.246">
-    <failure message="io.cucumber.junit.UndefinedStepException: The step 'user click add to cart' is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Given(&quot;user click add to cart&quot;)&#10;public void user_click_add_to_cart() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'user click add to cart' is undefined.
-You can implement this step using the snippet(s) below:
-
-@Given(&quot;user click add to cart&quot;)
-public void user_click_add_to_cart() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-</failure>
-  </testcase>
+  <testcase name="user input &quot;standard_user&quot; and &quot;secret_sauce&quot;" classname="Add To Cart" time="0.565"/>
+  <testcase name="user click login button" classname="Add To Cart" time="0.277"/>
+  <testcase name="user success login" classname="Add To Cart" time="0.165"/>
+  <testcase name="user click add to cart" classname="Add To Cart" time="0.15"/>
+  <testcase name="user can see the shopping cart added" classname="Add To Cart" time="0.001"/>
+  <testcase name="classMethod" classname="Add To Cart" time="4.213"/>
   <system-out><![CDATA[
 @Web @AddToCart
 Scenario: Add To Cart                                 ?[90m# src/test/resources/features/addToCart.feature:5?[0m
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 38865
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 43338
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 23, 2022 9:23:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 23, 2022 10:54:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
