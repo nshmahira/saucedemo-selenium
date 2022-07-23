@@ -1,5 +1,6 @@
 package demo.hooks;
 
+import demo.pages.base.page_object.AddToCartPages;
 import demo.webdriver.WebdriverInstance;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -26,6 +27,7 @@ public class WebdriverHooks {
       }
 
     }
+    AddToCartPages.listProduct.clear();
     WebdriverInstance.quit();
   }
 }

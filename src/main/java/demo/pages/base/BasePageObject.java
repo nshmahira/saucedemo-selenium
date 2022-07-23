@@ -4,6 +4,7 @@ import demo.webdriver.WebdriverInstance;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
@@ -59,6 +60,11 @@ public class BasePageObject {
     public String getTitle() {
         wait(3000);
         return getDriver().getTitle();
+    }
+    public void selectOn (By element, String text){
+        waitUntil(ExpectedConditions.visibilityOfElementLocated(element), timeout);
+        Select select = new Select (getDriver().findElement(element));
+        select.selectByVisibleText(text);
     }
 
 }

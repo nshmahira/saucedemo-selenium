@@ -1,28 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Checkout Item" tests="13" skipped="0" failures="0" errors="0" timestamp="2022-07-17T14:30:33" hostname="DESKTOP-RDQV5OE" time="2.514">
+<testsuite name="Checkout Item" tests="13" skipped="8" failures="2" errors="0" timestamp="2022-07-23T02:23:49" hostname="Nabilahs-MacBook-Pro.local" time="1.281">
   <properties/>
-  <testcase name="user input &quot;standard_user&quot; and &quot;secret_sauce&quot;" classname="Checkout Item" time="0.302"/>
-  <testcase name="user click login button" classname="Checkout Item" time="0.173"/>
-  <testcase name="user success login" classname="Checkout Item" time="0.09"/>
-  <testcase name="user click add to cart" classname="Checkout Item" time="0.183"/>
-  <testcase name="user can see the shopping cart added" classname="Checkout Item" time="0.044"/>
-  <testcase name="user click shopping cart" classname="Checkout Item" time="0.165"/>
-  <testcase name="user click checkout button" classname="Checkout Item" time="0.142"/>
-  <testcase name="user input &quot;first name&quot; and &quot;last name&quot; and &quot;43252&quot;" classname="Checkout Item" time="0.407"/>
-  <testcase name="user click continue button" classname="Checkout Item" time="0.145"/>
-  <testcase name="user can see checkout overview" classname="Checkout Item" time="0.04"/>
-  <testcase name="user click finish button" classname="Checkout Item" time="0.112"/>
-  <testcase name="user can see success checkout" classname="Checkout Item" time="0.06"/>
-  <testcase name="classMethod" classname="Checkout Item" time="4.173"/>
+  <testcase name="user input &quot;standard_user&quot; and &quot;secret_sauce&quot;" classname="Checkout Item" time="0.459"/>
+  <testcase name="user click login button" classname="Checkout Item" time="0.275"/>
+  <testcase name="user success login" classname="Checkout Item" time="0.245"/>
+  <testcase name="user click add to cart" classname="Checkout Item" time="0.0">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'user click add to cart' is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;user click add to cart&quot;)&#10;public void user_click_add_to_cart() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'user click add to cart' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user click add to cart&quot;)
+public void user_click_add_to_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <testcase name="user can see the shopping cart added" classname="Checkout Item" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="user click shopping cart" classname="Checkout Item" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="user click checkout button" classname="Checkout Item" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="user input &quot;first name&quot; and &quot;last name&quot; and &quot;43252&quot;" classname="Checkout Item" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="user click continue button" classname="Checkout Item" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="user can see checkout overview" classname="Checkout Item" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="user click finish button" classname="Checkout Item" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="user can see success checkout" classname="Checkout Item" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Checkout Item" time="4.55">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'user click add to cart' is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;user click add to cart&quot;)&#10;public void user_click_add_to_cart() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'user click add to cart' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user click add to cart&quot;)
+public void user_click_add_to_cart() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
   <system-out><![CDATA[
 @Web @CheckoutItem
 Scenario: Checkout Item                                   ?[90m# src/test/resources/features/checkOutItem.feature:5?[0m
 ]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 12504
+  <system-err><![CDATA[Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 35272
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 17, 2022 9:30:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 23, 2022 9:23:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

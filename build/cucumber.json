@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 390000000,
+              "duration": 593000000,
               "status": "passed"
             },
             "line": 5,
@@ -33,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 153000000,
+              "duration": 235000000,
               "status": "passed"
             },
             "line": 6,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 72000000,
+              "duration": 211000000,
               "status": "passed"
             },
             "line": 7,
@@ -58,11 +58,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-17T14:30:11.663Z",
+        "start_timestamp": "2022-07-23T02:23:23.348Z",
         "before": [
           {
             "result": {
-              "duration": 2327000000,
+              "duration": 3480000000,
               "status": "passed"
             },
             "match": {
@@ -77,7 +77,7 @@
         "after": [
           {
             "result": {
-              "duration": 810000000,
+              "duration": 213000000,
               "status": "passed"
             },
             "match": {
@@ -90,20 +90,16 @@
         "steps": [
           {
             "result": {
-              "duration": 177000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 11,
             "name": "user click add to cart",
-            "match": {
-              "location": "demo.steps_definition.AddToCartStep.userClickAddToCart()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 71000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "user can see the shopping cart added",
@@ -131,7 +127,7 @@
         "steps": [
           {
             "result": {
-              "duration": 280000000,
+              "duration": 424000000,
               "status": "passed"
             },
             "line": 5,
@@ -153,7 +149,7 @@
           },
           {
             "result": {
-              "duration": 162000000,
+              "duration": 253000000,
               "status": "passed"
             },
             "line": 6,
@@ -165,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 108000000,
+              "duration": 122000000,
               "status": "passed"
             },
             "line": 7,
@@ -178,11 +174,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-17T14:30:15.739Z",
+        "start_timestamp": "2022-07-23T02:23:28.250Z",
         "before": [
           {
             "result": {
-              "duration": 1559000000,
+              "duration": 2795000000,
               "status": "passed"
             },
             "match": {
@@ -197,7 +193,7 @@
         "after": [
           {
             "result": {
-              "duration": 712000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "match": {
@@ -210,20 +206,17 @@
         "steps": [
           {
             "result": {
-              "duration": 145000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 16,
             "name": "user click add to cart",
-            "match": {
-              "location": "demo.steps_definition.AddToCartStep.userClickAddToCart()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 54000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "line": 17,
             "name": "user can see the shopping cart added",
@@ -263,7 +256,7 @@
     "line": 2,
     "elements": [
       {
-        "line": 4,
+        "line": 3,
         "name": "Login",
         "description": "",
         "type": "background",
@@ -271,10 +264,10 @@
         "steps": [
           {
             "result": {
-              "duration": 271000000,
+              "duration": 441000000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 4,
             "name": "user input \"standard_user\" and \"secret_sauce\"",
             "match": {
               "arguments": [
@@ -293,10 +286,10 @@
           },
           {
             "result": {
-              "duration": 136000000,
+              "duration": 261000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "user click login button",
             "match": {
               "location": "demo.steps_definition.LoginStep.clickButtonLogin()"
@@ -305,24 +298,42 @@
           },
           {
             "result": {
-              "duration": 67000000,
+              "duration": 122000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "user success login",
             "match": {
               "location": "demo.steps_definition.LoginStep.isSuccessLogin()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click \"Sauce Labs Backpack\" to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sauce Labs Backpack\"",
+                  "offset": 11
+                }
+              ],
+              "location": "demo.steps_definition.AddToCartStep.userClickToCart(java.lang.String)"
+            },
+            "keyword": "When "
           }
         ]
       },
       {
-        "start_timestamp": "2022-07-17T14:30:18.774Z",
+        "start_timestamp": "2022-07-23T02:23:32.070Z",
         "before": [
           {
             "result": {
-              "duration": 1580000000,
+              "duration": 2460000000,
               "status": "passed"
             },
             "match": {
@@ -330,14 +341,14 @@
             }
           }
         ],
-        "line": 10,
-        "name": "NavigateToFacebook",
+        "line": 9,
+        "name": "Choose product sorting",
         "description": "",
-        "id": "scenario-with-background;navigatetofacebook",
+        "id": "transaction-feature;choose-product-sorting",
         "after": [
           {
             "result": {
-              "duration": 662000000,
+              "duration": 238000000,
               "status": "passed"
             },
             "match": {
@@ -350,51 +361,111 @@
         "steps": [
           {
             "result": {
-              "duration": 1031000000,
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user select sorting \"Name (Z to A)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name (Z to A)\"",
+                  "offset": 20
+                }
+              ],
+              "location": "demo.steps_definition.SortingStep.userSelectSorting(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "user scroll to bottom page",
+            "name": "user click \"Test.allTheThings() T-Shirt (Red)\" to cart",
             "match": {
-              "location": "demo.steps_definition.TugasStep.userScrollPage()"
+              "arguments": [
+                {
+                  "val": "\"Test.allTheThings() T-Shirt (Red)\"",
+                  "offset": 11
+                }
+              ],
+              "location": "demo.steps_definition.AddToCartStep.userClickToCart(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 127000000,
+              "duration": 142000000,
               "status": "passed"
             },
             "line": 12,
-            "name": "user click facebook",
+            "name": "user click cart button",
             "match": {
-              "location": "demo.steps_definition.TugasStep.userClickFacebook()"
+              "location": "demo.steps_definition.AddToCartStep.userClickCartButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 24000000,
+              "duration": 72000000,
               "status": "passed"
             },
             "line": 13,
-            "name": "user move to tab",
+            "name": "user can see the shopping cart added",
             "match": {
-              "location": "demo.steps_definition.TugasStep.userMoveToTab()"
+              "location": "demo.steps_definition.AddToCartStep.isSuccessAddToCart()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 6042000000,
+              "duration": 80000000,
               "status": "passed"
             },
             "line": 14,
-            "name": "user can validate url title",
+            "name": "user remove item \"Test.allTheThings() T-Shirt (Red)\" from cart",
             "match": {
-              "location": "demo.steps_definition.TugasStep.isTitleFacebook()"
+              "arguments": [
+                {
+                  "val": "\"Test.allTheThings() T-Shirt (Red)\"",
+                  "offset": 17
+                }
+              ],
+              "location": "demo.steps_definition.AddToCartStep.userRemoveItemFromCart(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5071000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "\"Test.allTheThings() T-Shirt (Red)\" success remove",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Test.allTheThings() T-Shirt (Red)\"",
+                  "offset": 0
+                }
+              ],
+              "location": "demo.steps_definition.AddToCartStep.successRemove(java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 334000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user can click continue shopping",
+            "match": {
+              "location": "demo.steps_definition.AddToCartStep.userCanClickContinueShopping()"
+            },
+            "keyword": "When "
           }
         ],
         "tags": [
@@ -402,16 +473,16 @@
             "name": "@Web"
           },
           {
-            "name": "@NavigateToFacebook"
+            "name": "@sortir"
           }
         ]
       }
     ],
-    "name": "Scenario with Background",
+    "name": "Transaction Feature",
     "description": "",
-    "id": "scenario-with-background",
+    "id": "transaction-feature",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/Tugas.feature",
+    "uri": "file:src/test/resources/features/Transaction.feature",
     "tags": [
       {
         "name": "@Web",
@@ -427,11 +498,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-17T14:30:28.732Z",
+        "start_timestamp": "2022-07-23T02:23:41.736Z",
         "before": [
           {
             "result": {
-              "duration": 1544000000,
+              "duration": 3018000000,
               "status": "passed"
             },
             "match": {
@@ -446,7 +517,7 @@
         "after": [
           {
             "result": {
-              "duration": 638000000,
+              "duration": 239000000,
               "status": "passed"
             },
             "match": {
@@ -459,7 +530,7 @@
         "steps": [
           {
             "result": {
-              "duration": 342000000,
+              "duration": 459000000,
               "status": "passed"
             },
             "line": 6,
@@ -481,7 +552,7 @@
           },
           {
             "result": {
-              "duration": 182000000,
+              "duration": 255000000,
               "status": "passed"
             },
             "line": 7,
@@ -493,7 +564,7 @@
           },
           {
             "result": {
-              "duration": 70000000,
+              "duration": 238000000,
               "status": "passed"
             },
             "line": 8,
@@ -505,20 +576,17 @@
           },
           {
             "result": {
-              "duration": 137000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 9,
             "name": "user click add to cart",
-            "match": {
-              "location": "demo.steps_definition.AddToCartStep.userClickAddToCart()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 61000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "line": 10,
             "name": "user can see the shopping cart added",
@@ -558,11 +626,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-17T14:30:31.714Z",
+        "start_timestamp": "2022-07-23T02:23:45.993Z",
         "before": [
           {
             "result": {
-              "duration": 1655000000,
+              "duration": 3234000000,
               "status": "passed"
             },
             "match": {
@@ -577,7 +645,7 @@
         "after": [
           {
             "result": {
-              "duration": 648000000,
+              "duration": 290000000,
               "status": "passed"
             },
             "match": {
@@ -590,7 +658,7 @@
         "steps": [
           {
             "result": {
-              "duration": 301000000,
+              "duration": 460000000,
               "status": "passed"
             },
             "line": 6,
@@ -612,7 +680,7 @@
           },
           {
             "result": {
-              "duration": 172000000,
+              "duration": 274000000,
               "status": "passed"
             },
             "line": 7,
@@ -624,7 +692,7 @@
           },
           {
             "result": {
-              "duration": 89000000,
+              "duration": 245000000,
               "status": "passed"
             },
             "line": 8,
@@ -636,20 +704,16 @@
           },
           {
             "result": {
-              "duration": 182000000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 9,
             "name": "user click add to cart",
-            "match": {
-              "location": "demo.steps_definition.AddToCartStep.userClickAddToCart()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 44000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 10,
             "name": "user can see the shopping cart added",
@@ -660,8 +724,7 @@
           },
           {
             "result": {
-              "duration": 165000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "user click shopping cart",
@@ -672,8 +735,8 @@
           },
           {
             "result": {
-              "duration": 142000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 12,
             "name": "user click checkout button",
@@ -684,8 +747,7 @@
           },
           {
             "result": {
-              "duration": 408000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "user input \"first name\" and \"last name\" and \"43252\"",
@@ -710,8 +772,7 @@
           },
           {
             "result": {
-              "duration": 145000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "user click continue button",
@@ -722,8 +783,8 @@
           },
           {
             "result": {
-              "duration": 39000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 15,
             "name": "user can see checkout overview",
@@ -734,8 +795,7 @@
           },
           {
             "result": {
-              "duration": 113000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "user click finish button",
@@ -746,8 +806,7 @@
           },
           {
             "result": {
-              "duration": 59000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 17,
             "name": "user can see success checkout",
@@ -787,11 +846,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-07-17T14:30:35.889Z",
+        "start_timestamp": "2022-07-23T02:23:50.531Z",
         "before": [
           {
             "result": {
-              "duration": 1648000000,
+              "duration": 3434000000,
               "status": "passed"
             },
             "match": {
@@ -806,7 +865,7 @@
         "after": [
           {
             "result": {
-              "duration": 788000000,
+              "duration": 147000000,
               "status": "passed"
             },
             "match": {
@@ -819,7 +878,7 @@
         "steps": [
           {
             "result": {
-              "duration": 289000000,
+              "duration": 647000000,
               "status": "passed"
             },
             "line": 6,
@@ -841,7 +900,7 @@
           },
           {
             "result": {
-              "duration": 160000000,
+              "duration": 338000000,
               "status": "passed"
             },
             "line": 7,
@@ -853,7 +912,7 @@
           },
           {
             "result": {
-              "duration": 107000000,
+              "duration": 177000000,
               "status": "passed"
             },
             "line": 8,
@@ -874,11 +933,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-07-17T14:30:38.888Z",
+        "start_timestamp": "2022-07-23T02:23:55.302Z",
         "before": [
           {
             "result": {
-              "duration": 1598000000,
+              "duration": 2764000000,
               "status": "passed"
             },
             "match": {
@@ -893,7 +952,7 @@
         "after": [
           {
             "result": {
-              "duration": 630000000,
+              "duration": 159000000,
               "status": "passed"
             },
             "match": {
@@ -906,7 +965,7 @@
         "steps": [
           {
             "result": {
-              "duration": 305000000,
+              "duration": 470000000,
               "status": "passed"
             },
             "line": 6,
@@ -928,7 +987,7 @@
           },
           {
             "result": {
-              "duration": 135000000,
+              "duration": 338000000,
               "status": "passed"
             },
             "line": 7,
@@ -940,7 +999,7 @@
           },
           {
             "result": {
-              "duration": 5052000000,
+              "duration": 5003000000,
               "status": "passed"
             },
             "line": 8,

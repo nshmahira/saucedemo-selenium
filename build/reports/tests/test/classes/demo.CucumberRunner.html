@@ -88,37 +88,41 @@
 <pre>  ?[32mGiven ?[0m?[32muser input ?[0m?[32m?[1m&quot;standard_user&quot;?[0m?[32m and ?[0m?[32m?[1m&quot;secret_sauce&quot;?[0m ?[90m# demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)?[0m
   ?[32mAnd ?[0m?[32muser click login button?[0m                         ?[90m# demo.steps_definition.LoginStep.clickButtonLogin()?[0m
   ?[32mThen ?[0m?[32muser success login?[0m                             ?[90m# demo.steps_definition.LoginStep.isSuccessLogin()?[0m
-  ?[32mGiven ?[0m?[32muser click add to cart?[0m                        ?[90m# demo.steps_definition.AddToCartStep.userClickAddToCart()?[0m
-  ?[32mThen ?[0m?[32muser can see the shopping cart added?[0m           ?[90m# demo.steps_definition.AddToCartStep.isSuccessAddToCart()?[0m
+  ?[33mGiven ?[0m?[33muser click add to cart?[0m                        ?[90m# null?[0m
+  ?[36mThen ?[0m?[36muser can see the shopping cart added?[0m           ?[90m# demo.steps_definition.AddToCartStep.isSuccessAddToCart()?[0m
   ?[32mGiven ?[0m?[32muser input ?[0m?[32m?[1m&quot;standard_user&quot;?[0m?[32m and ?[0m?[32m?[1m&quot;secret_sauce&quot;?[0m ?[90m# demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)?[0m
   ?[32mAnd ?[0m?[32muser click login button?[0m                         ?[90m# demo.steps_definition.LoginStep.clickButtonLogin()?[0m
   ?[32mThen ?[0m?[32muser success login?[0m                             ?[90m# demo.steps_definition.LoginStep.isSuccessLogin()?[0m
-  ?[32mGiven ?[0m?[32muser click add to cart?[0m                        ?[90m# demo.steps_definition.AddToCartStep.userClickAddToCart()?[0m
-  ?[32mThen ?[0m?[32muser can see the shopping cart added?[0m           ?[90m# demo.steps_definition.AddToCartStep.isSuccessAddToCart()?[0m
+  ?[33mGiven ?[0m?[33muser click add to cart?[0m                        ?[90m# null?[0m
+  ?[36mThen ?[0m?[36muser can see the shopping cart added?[0m           ?[90m# demo.steps_definition.AddToCartStep.isSuccessAddToCart()?[0m
+  ?[32mGiven ?[0m?[32muser input ?[0m?[32m?[1m&quot;standard_user&quot;?[0m?[32m and ?[0m?[32m?[1m&quot;secret_sauce&quot;?[0m                 ?[90m# demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32muser click login button?[0m                                         ?[90m# demo.steps_definition.LoginStep.clickButtonLogin()?[0m
+  ?[32mThen ?[0m?[32muser success login?[0m                                             ?[90m# demo.steps_definition.LoginStep.isSuccessLogin()?[0m
+  ?[32mWhen ?[0m?[32muser click ?[0m?[32m?[1m&quot;Sauce Labs Backpack&quot;?[0m?[32m to cart?[0m                       ?[90m# demo.steps_definition.AddToCartStep.userClickToCart(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32muser select sorting ?[0m?[32m?[1m&quot;Name (Z to A)&quot;?[0m                            ?[90m# demo.steps_definition.SortingStep.userSelectSorting(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32muser click ?[0m?[32m?[1m&quot;Test.allTheThings() T-Shirt (Red)&quot;?[0m?[32m to cart?[0m          ?[90m# demo.steps_definition.AddToCartStep.userClickToCart(java.lang.String)?[0m
+  ?[32mAnd ?[0m?[32muser click cart button?[0m                                          ?[90m# demo.steps_definition.AddToCartStep.userClickCartButton()?[0m
+  ?[32mThen ?[0m?[32muser can see the shopping cart added?[0m                           ?[90m# demo.steps_definition.AddToCartStep.isSuccessAddToCart()?[0m
+  ?[32mWhen ?[0m?[32muser remove item ?[0m?[32m?[1m&quot;Test.allTheThings() T-Shirt (Red)&quot;?[0m?[32m from cart?[0m ?[90m# demo.steps_definition.AddToCartStep.userRemoveItemFromCart(java.lang.String)?[0m
+  ?[32mThen ?[0m?[32m?[0m?[32m?[1m&quot;Test.allTheThings() T-Shirt (Red)&quot;?[0m?[32m success remove?[0m             ?[90m# demo.steps_definition.AddToCartStep.successRemove(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32muser can click continue shopping?[0m                               ?[90m# demo.steps_definition.AddToCartStep.userCanClickContinueShopping()?[0m
   ?[32mGiven ?[0m?[32muser input ?[0m?[32m?[1m&quot;standard_user&quot;?[0m?[32m and ?[0m?[32m?[1m&quot;secret_sauce&quot;?[0m ?[90m# demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)?[0m
   ?[32mAnd ?[0m?[32muser click login button?[0m                         ?[90m# demo.steps_definition.LoginStep.clickButtonLogin()?[0m
   ?[32mThen ?[0m?[32muser success login?[0m                             ?[90m# demo.steps_definition.LoginStep.isSuccessLogin()?[0m
-  ?[32mAnd ?[0m?[32muser scroll to bottom page?[0m                      ?[90m# demo.steps_definition.TugasStep.userScrollPage()?[0m
-  ?[32mAnd ?[0m?[32muser click facebook?[0m                             ?[90m# demo.steps_definition.TugasStep.userClickFacebook()?[0m
-  ?[32mAnd ?[0m?[32muser move to tab?[0m                                ?[90m# demo.steps_definition.TugasStep.userMoveToTab()?[0m
-  ?[32mThen ?[0m?[32muser can validate url title?[0m                    ?[90m# demo.steps_definition.TugasStep.isTitleFacebook()?[0m
-  ?[32mGiven ?[0m?[32muser input ?[0m?[32m?[1m&quot;standard_user&quot;?[0m?[32m and ?[0m?[32m?[1m&quot;secret_sauce&quot;?[0m ?[90m# demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)?[0m
-  ?[32mAnd ?[0m?[32muser click login button?[0m                         ?[90m# demo.steps_definition.LoginStep.clickButtonLogin()?[0m
-  ?[32mThen ?[0m?[32muser success login?[0m                             ?[90m# demo.steps_definition.LoginStep.isSuccessLogin()?[0m
-  ?[32mGiven ?[0m?[32muser click add to cart?[0m                        ?[90m# demo.steps_definition.AddToCartStep.userClickAddToCart()?[0m
-  ?[32mThen ?[0m?[32muser can see the shopping cart added?[0m           ?[90m# demo.steps_definition.AddToCartStep.isSuccessAddToCart()?[0m
+  ?[33mGiven ?[0m?[33muser click add to cart?[0m                        ?[90m# null?[0m
+  ?[36mThen ?[0m?[36muser can see the shopping cart added?[0m           ?[90m# demo.steps_definition.AddToCartStep.isSuccessAddToCart()?[0m
   ?[32mGiven ?[0m?[32muser input ?[0m?[32m?[1m&quot;standard_user&quot;?[0m?[32m and ?[0m?[32m?[1m&quot;secret_sauce&quot;?[0m     ?[90m# demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)?[0m
   ?[32mAnd ?[0m?[32muser click login button?[0m                             ?[90m# demo.steps_definition.LoginStep.clickButtonLogin()?[0m
   ?[32mThen ?[0m?[32muser success login?[0m                                 ?[90m# demo.steps_definition.LoginStep.isSuccessLogin()?[0m
-  ?[32mAnd ?[0m?[32muser click add to cart?[0m                              ?[90m# demo.steps_definition.AddToCartStep.userClickAddToCart()?[0m
-  ?[32mThen ?[0m?[32muser can see the shopping cart added?[0m               ?[90m# demo.steps_definition.AddToCartStep.isSuccessAddToCart()?[0m
-  ?[32mAnd ?[0m?[32muser click shopping cart?[0m                            ?[90m# demo.steps_definition.CheckoutItemSteps.clickButtonLogin()?[0m
-  ?[32mAnd ?[0m?[32muser click checkout button?[0m                          ?[90m# demo.steps_definition.CheckoutItemSteps.clickButtonCheckout()?[0m
-  ?[32mAnd ?[0m?[32muser input ?[0m?[32m?[1m&quot;first name&quot;?[0m?[32m and ?[0m?[32m?[1m&quot;last name&quot;?[0m?[32m and ?[0m?[32m?[1m&quot;43252&quot;?[0m ?[90m# demo.steps_definition.CheckoutItemSteps.inputUsernameAndPassword(java.lang.String,java.lang.String,java.lang.String)?[0m
-  ?[32mAnd ?[0m?[32muser click continue button?[0m                          ?[90m# demo.steps_definition.CheckoutItemSteps.clickContinueButton()?[0m
-  ?[32mThen ?[0m?[32muser can see checkout overview?[0m                     ?[90m# demo.steps_definition.CheckoutItemSteps.isCheckoutOverview()?[0m
-  ?[32mAnd ?[0m?[32muser click finish button?[0m                            ?[90m# demo.steps_definition.CheckoutItemSteps.clickFinishButton()?[0m
-  ?[32mThen ?[0m?[32muser can see success checkout?[0m                      ?[90m# demo.steps_definition.CheckoutItemSteps.isSuccessCheckot()?[0m
+  ?[33mAnd ?[0m?[33muser click add to cart?[0m                              ?[90m# null?[0m
+  ?[36mThen ?[0m?[36muser can see the shopping cart added?[0m               ?[90m# demo.steps_definition.AddToCartStep.isSuccessAddToCart()?[0m
+  ?[36mAnd ?[0m?[36muser click shopping cart?[0m                            ?[90m# demo.steps_definition.CheckoutItemSteps.clickButtonLogin()?[0m
+  ?[36mAnd ?[0m?[36muser click checkout button?[0m                          ?[90m# demo.steps_definition.CheckoutItemSteps.clickButtonCheckout()?[0m
+  ?[36mAnd ?[0m?[36muser input ?[0m?[36m?[1m&quot;first name&quot;?[0m?[36m and ?[0m?[36m?[1m&quot;last name&quot;?[0m?[36m and ?[0m?[36m?[1m&quot;43252&quot;?[0m ?[90m# demo.steps_definition.CheckoutItemSteps.inputUsernameAndPassword(java.lang.String,java.lang.String,java.lang.String)?[0m
+  ?[36mAnd ?[0m?[36muser click continue button?[0m                          ?[90m# demo.steps_definition.CheckoutItemSteps.clickContinueButton()?[0m
+  ?[36mThen ?[0m?[36muser can see checkout overview?[0m                     ?[90m# demo.steps_definition.CheckoutItemSteps.isCheckoutOverview()?[0m
+  ?[36mAnd ?[0m?[36muser click finish button?[0m                            ?[90m# demo.steps_definition.CheckoutItemSteps.clickFinishButton()?[0m
+  ?[36mThen ?[0m?[36muser can see success checkout?[0m                      ?[90m# demo.steps_definition.CheckoutItemSteps.isSuccessCheckot()?[0m
   ?[32mGiven ?[0m?[32muser input ?[0m?[32m?[1m&quot;standard_user&quot;?[0m?[32m and ?[0m?[32m?[1m&quot;secret_sauce&quot;?[0m ?[90m# demo.steps_definition.LoginStep.inputUsernameAndPassword(java.lang.String,java.lang.String)?[0m
   ?[32mAnd ?[0m?[32muser click login button?[0m                         ?[90m# demo.steps_definition.LoginStep.clickButtonLogin()?[0m
   ?[32mThen ?[0m?[32muser success login?[0m                             ?[90m# demo.steps_definition.LoginStep.isSuccessLogin()?[0m
@@ -131,22 +135,22 @@
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
-?[32m?[1m??[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m??[0m
-?[32m?[1m??[0m Activate publishing with one of the following:                                    ?[32m?[1m??[0m
-?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
-?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
-?[32m?[1m??[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m??[0m
-?[32m?[1m??[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m??[0m
-?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m??[0m
-?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m Disable this message with one of the following:                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m                                                                                   ?[32m?[1m??[0m
-?[32m?[1m??[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
-?[32m?[1m??[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m??[0m
-?[32m?[1m??????????????????????????????????????????????????????????????????????????????????????[0m
+<pre>?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Activate publishing with one of the following:                                    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Disable this message with one of the following:                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m└───────────────────────────────────────────────────────────────────────────────────┘?[0m
 </pre>
 </span>
 </div>
@@ -158,7 +162,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.9.1</a> at Jul 17, 2022 9:30:46 PM</p>
+<a href="http://www.gradle.org">Gradle 6.9.1</a> at Jul 23, 2022 9:24:04 AM</p>
 </div>
 </div>
 </body>

@@ -13,6 +13,7 @@ public class WebdriverInstance {
     public static WebDriver webdriver;
 
     public static void initialize()  {
+        System.setProperty("webdriver.chrome.driver","/Users/nabilahpermata/AUTOMATION_QA5/saucedemo-serenity/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito", "--start-maximized");
         options.setCapability(CapabilityType.BROWSER_NAME, BrowserType.CHROME);
